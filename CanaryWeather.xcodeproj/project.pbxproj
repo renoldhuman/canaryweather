@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0718C6052107ACBD00FD1D0C /* DarkSkyAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718C6042107ACBD00FD1D0C /* DarkSkyAPIKey.swift */; };
 		07771CFD21077210002125A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771CFC21077210002125A3 /* AppDelegate.swift */; };
-		07771CFF21077210002125A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771CFE21077210002125A3 /* ViewController.swift */; };
+		07771CFF21077210002125A3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771CFE21077210002125A3 /* TabBarController.swift */; };
 		07771D0221077210002125A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07771D0021077210002125A3 /* Main.storyboard */; };
 		07771D0521077210002125A3 /* CanaryWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07771D0321077210002125A3 /* CanaryWeather.xcdatamodeld */; };
 		07771D0721077211002125A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07771D0621077211002125A3 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		0718C6042107ACBD00FD1D0C /* DarkSkyAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIKey.swift; sourceTree = "<group>"; };
 		07771CF921077210002125A3 /* CanaryWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanaryWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07771CFC21077210002125A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07771CFE21077210002125A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07771CFE21077210002125A3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		07771D0121077210002125A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07771D0421077210002125A3 /* CanaryWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CanaryWeather.xcdatamodel; sourceTree = "<group>"; };
 		07771D0621077211002125A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				07771CFC21077210002125A3 /* AppDelegate.swift */,
-				07771CFE21077210002125A3 /* ViewController.swift */,
+				07771CFE21077210002125A3 /* TabBarController.swift */,
 				07771D0021077210002125A3 /* Main.storyboard */,
 				07771D0621077211002125A3 /* Assets.xcassets */,
 				07771D0821077211002125A3 /* LaunchScreen.storyboard */,
@@ -267,7 +267,7 @@
 			files = (
 				07771D0521077210002125A3 /* CanaryWeather.xcdatamodeld in Sources */,
 				0718C6052107ACBD00FD1D0C /* DarkSkyAPIKey.swift in Sources */,
-				07771CFF21077210002125A3 /* ViewController.swift in Sources */,
+				07771CFF21077210002125A3 /* TabBarController.swift in Sources */,
 				07771D2E2107ABE6002125A3 /* ForecastData.swift in Sources */,
 				07771CFD21077210002125A3 /* AppDelegate.swift in Sources */,
 			);

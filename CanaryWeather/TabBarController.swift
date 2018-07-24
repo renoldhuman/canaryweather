@@ -8,9 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
+        let forecast = Forecast();
+        forecast.getForecastForWeek();
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
