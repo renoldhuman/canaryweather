@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0718C6052107ACBD00FD1D0C /* DarkSkyAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0718C6042107ACBD00FD1D0C /* DarkSkyAPIKey.swift */; };
 		07771CFD21077210002125A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771CFC21077210002125A3 /* AppDelegate.swift */; };
 		07771CFF21077210002125A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771CFE21077210002125A3 /* ViewController.swift */; };
 		07771D0221077210002125A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07771D0021077210002125A3 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		07771D0A21077211002125A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07771D0821077211002125A3 /* LaunchScreen.storyboard */; };
 		07771D1521077211002125A3 /* CanaryWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771D1421077211002125A3 /* CanaryWeatherTests.swift */; };
 		07771D2021077212002125A3 /* CanaryWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771D1F21077212002125A3 /* CanaryWeatherUITests.swift */; };
+		07771D2E2107ABE6002125A3 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07771D2D2107ABE6002125A3 /* ForecastData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0718C6042107ACBD00FD1D0C /* DarkSkyAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIKey.swift; sourceTree = "<group>"; };
 		07771CF921077210002125A3 /* CanaryWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanaryWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07771CFC21077210002125A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07771CFE21077210002125A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		07771D1B21077212002125A3 /* CanaryWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanaryWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07771D1F21077212002125A3 /* CanaryWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanaryWeatherUITests.swift; sourceTree = "<group>"; };
 		07771D2121077212002125A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07771D2D2107ABE6002125A3 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				07771D0821077211002125A3 /* LaunchScreen.storyboard */,
 				07771D0B21077211002125A3 /* Info.plist */,
 				07771D0321077210002125A3 /* CanaryWeather.xcdatamodeld */,
+				07771D2D2107ABE6002125A3 /* ForecastData.swift */,
+				0718C6042107ACBD00FD1D0C /* DarkSkyAPIKey.swift */,
 			);
 			path = CanaryWeather;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07771D0521077210002125A3 /* CanaryWeather.xcdatamodeld in Sources */,
+				0718C6052107ACBD00FD1D0C /* DarkSkyAPIKey.swift in Sources */,
 				07771CFF21077210002125A3 /* ViewController.swift in Sources */,
+				07771D2E2107ABE6002125A3 /* ForecastData.swift in Sources */,
 				07771CFD21077210002125A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
