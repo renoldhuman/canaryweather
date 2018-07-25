@@ -9,10 +9,10 @@
 import UIKit
 
 class TabBarController: UITabBarController {
+    let forecast = Forecast();
 
     override func viewDidLoad() {
-        let forecast = Forecast();
-        forecast.getForecastForWeek();
+        forecast.startWeatherLocator();
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
